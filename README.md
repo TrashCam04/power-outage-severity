@@ -29,32 +29,37 @@ Plot 1 - Distribution of Outage Duration
 Embed at least one plotly plot you created in your notebook that displays the distribution of a single column (see Part 2: Report for instructions). For each plot that you embed, include a 1-2 sentence explanation about your plot, making sure to describe and interpret any trends present.
 
 Plot 1 - Distribution of Outage Duration Plot(Univariate)
+
 <iframe
     src="assets/duration_dist.html"
     width="800"
     height="600"
     frameborder="0"
-></iframe>
+</iframe>
+
 The distribution of outage duration is highly right-skewed, with most outages lasting a relatively short time and a small number lasting significantly longer. This suggests that while most outages are resolved quickly, extreme events can lead to disproportionately long durations.
 
 
 Plot 2 - Cause vs Duration Distribution Plot(Bivariate)
+
 <iframe
     src="assets/cause_vs_duration.html"
     width="800"
     height="600"
     frameborder="0"
-></iframe>
+</iframe>
+
 Outage duration varies substantially across different cause categories. In particular, outages caused by severe weather tend to have longer durations compared to other causes, suggesting that the underlying cause of an outage is an important factor in determining its severity.
 
 
 Plot 3 - Severity based on Region Plot(Aggregate)
+
 <iframe
     src="assets/severity_by_region.html"
     width="800"
     height="600"
     frameborder="0"
-></iframe>
+</iframe>
 
 Severity based on Region Table
 | CLIMATE.REGION     |   HIGH.SEVERITY |
